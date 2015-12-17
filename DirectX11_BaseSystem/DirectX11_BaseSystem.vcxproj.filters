@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="cpp\Object">
+      <UniqueIdentifier>{472667bc-4624-4dae-980d-babea44e57b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\Object\Base">
+      <UniqueIdentifier>{9b60b521-c638-4993-9085-bdb8c5918566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\Object\Container">
+      <UniqueIdentifier>{6235213d-7733-409d-8941-1c02b6e295e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\System">
+      <UniqueIdentifier>{4abdf041-ecf2-4be9-bee9-b90ae05dabd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\System">
+      <UniqueIdentifier>{f5529743-a01a-4e26-aa8e-d924314595d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\System\Base">
+      <UniqueIdentifier>{8d2e7591-5d76-4bf9-939a-73c214208b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\System\Base">
+      <UniqueIdentifier>{686cc02c-a680-44dc-a45e-aa4af620ae1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\System\Loader">
+      <UniqueIdentifier>{a64c8c93-40bd-4022-a1fa-16cd292534dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\System\Loader">
+      <UniqueIdentifier>{626b7e89-6d88-4847-9fa8-db565fcfa3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\System\Matrix">
+      <UniqueIdentifier>{d07a09d0-0d4e-4376-ab41-abe5b8bd5a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\Sequence">
+      <UniqueIdentifier>{7579ad88-3f70-4239-bdc4-ea6c26f85209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Sequence">
+      <UniqueIdentifier>{27da1c29-3c1c-4615-9a58-958c3a077169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\Object\Effekseer">
+      <UniqueIdentifier>{5c2fa20e-d195-4625-97c9-022601cdcd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\Object\btPhysic">
+      <UniqueIdentifier>{66481fcb-1b11-448a-83bc-99399ff1a334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\System\CSV">
+      <UniqueIdentifier>{9f7925be-208c-4574-86b2-ed566fd3bc72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\System\CSV">
+      <UniqueIdentifier>{a24ea7bc-49be-443d-bec1-e0900d11b139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Object">
+      <UniqueIdentifier>{5dda4e2e-d031-4a51-b15c-5f6e28231945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Object\Base">
+      <UniqueIdentifier>{97bbdfa5-aa03-459b-ba8e-1024785eb511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Object\Container">
+      <UniqueIdentifier>{e4a2d75a-1394-416e-aca4-7d31c8d3ea4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Object\Effekseer">
+      <UniqueIdentifier>{e458449b-68f4-48ac-a5a2-992cea13807c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Object\btPhysics">
+      <UniqueIdentifier>{e902df68-1d4f-4a3c-9c55-5f40e53807ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\System\Matrix">
+      <UniqueIdentifier>{e84c834b-7d4e-4d95-a5b2-076b30806e1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Object\Base\Animation.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Base\Light.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Base\Material.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Base\Mesh.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Base\Model.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Base\MultiModel.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Base\Sprite.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Base\Surface.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Base\VertexData.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Container\VertexContainer.h">
+      <Filter>header\Object\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Container\ShaderResourceContainer.h">
+      <Filter>header\Object\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\Canvas.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\Device.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\DXInput.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\DXMath.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\DXResource.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\Joypad.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\Music.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\Shader.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\ShaderSet.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\SingletonManage.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\Viewport.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\Window.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Loader\WICTextureLoader.h">
+      <Filter>header\System\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Matrix\WorldMatrix.h">
+      <Filter>header\System\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Matrix\ConstantBufferManager.h">
+      <Filter>header\System\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Base\Camera.h">
+      <Filter>header\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sequence\Sequence.h">
+      <Filter>header\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Loader\fbxResource.h">
+      <Filter>header\System\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Effect\EffekseerManager.h">
+      <Filter>header\Object\Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Effect\EffekseerRendererDX11.h">
+      <Filter>header\Object\Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Effect\EffectObject.h">
+      <Filter>header\Object\Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Effect\Effekseer.h">
+      <Filter>header\Object\Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\btPhysics\btPhysicWorld.h">
+      <Filter>header\Object\btPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\btPhysics\btPhysicObject.h">
+      <Filter>header\Object\btPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\CSV\CSVWriter.h">
+      <Filter>header\System\CSV</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\CSV\CSVLoader.h">
+      <Filter>header\System\CSV</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Scene\VarianceShadow.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\btPhysics\btPhysicGhost.h">
+      <Filter>header\Object\btPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sequence\Title.h">
+      <Filter>header\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Base\CameraAnimation.h">
+      <Filter>header\Object\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Object\Base\Mesh.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Base\Model.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Base\MultiModel.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Base\Sprite.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Base\Surface.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Base\Animation.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Base\Light.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Base\Material.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Container\ShaderResourceContainer.cpp">
+      <Filter>cpp\Object\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Container\VertexContainer.cpp">
+      <Filter>cpp\Object\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Source.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Loader\WICTextureLoader.cpp">
+      <Filter>cpp\System\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Matrix\WorldMatrix.cpp">
+      <Filter>cpp\System\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Base\Camera.cpp">
+      <Filter>cpp\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Base\DXInput.cpp">
+      <Filter>cpp\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Base\DXResource.cpp">
+      <Filter>cpp\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Base\Joypad.cpp">
+      <Filter>cpp\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Base\Music.cpp">
+      <Filter>cpp\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Base\Shader.cpp">
+      <Filter>cpp\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Base\Viewport.cpp">
+      <Filter>cpp\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Base\Canvas.cpp">
+      <Filter>cpp\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Base\Device.cpp">
+      <Filter>cpp\System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sequence\SequenceManager.cpp">
+      <Filter>cpp\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Effect\EffectObject.cpp">
+      <Filter>cpp\Object\Effekseer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Effect\EffekseerManager.cpp">
+      <Filter>cpp\Object\Effekseer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\btPhysics\btPhysicObject.cpp">
+      <Filter>cpp\Object\btPhysic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\btPhysics\btPhysicWorld.cpp">
+      <Filter>cpp\Object\btPhysic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\CSV\CSVWriter.cpp">
+      <Filter>cpp\System\CSV</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\CSV\CSVLoader.cpp">
+      <Filter>cpp\System\CSV</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Scene\VarianceShadow.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\btPhysics\btPhysicGhost.cpp">
+      <Filter>cpp\Object\btPhysic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sequence\Title.cpp">
+      <Filter>cpp\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Base\CameraAnimation.cpp">
+      <Filter>cpp\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Loader\fbxResource.cpp">
+      <Filter>cpp\System\Loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
